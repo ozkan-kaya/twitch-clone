@@ -1,0 +1,95 @@
+.sidebar {
+    background-color: rgb(31, 31, 35);
+    position: fixed;
+    margin-top: -5px;
+    height: 100vh;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.sidebar-main{
+    height: 50px;
+}
+
+.sidebar-header{
+    display: flex;
+    height: 45px;
+    position: relative;
+}
+
+.sidebar-header p{
+   color: white;
+   font-size: 13px;
+   font-weight: 500;
+   margin-bottom: 10px;
+   letter-spacing: .6px;
+   line-height: 45px;
+  }
+
+#left-arrow-icn, #right-arrow-icn{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    right: 12px;
+    line-height: 45px;
+}
+
+#right-arrow-icn{
+    opacity: 0;
+}
+
+.sidebar-channel{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: -10px;
+}
+
+.sidebar-channel:hover {
+   background-color: rgb(38, 38, 43);
+   cursor: pointer;
+}
+
+.sidebar-channel .profile-pic{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sidebar-channel .author{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 90px;
+}
+
+.sidebar-channel #live-icon{
+    color: red;
+    font-size: 10px;
+}
+
+.live-viewers{
+    color: white;
+    margin-top: -18px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px){
+    .sidebar{
+        width: 50px
+    }
+
+    .sidebar-header p, #left-arrow-icn, .channel-infos, .stats{
+        opacity: 0;
+    }
+
+    #right-arrow-icn{
+        opacity: 1;
+        transform: translateX(-20%);
+    }
+
+}

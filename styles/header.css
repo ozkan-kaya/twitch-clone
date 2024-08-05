@@ -1,0 +1,148 @@
+.header {
+  margin-top: -60px;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(24, 24, 27);
+  z-index: 100;
+} 
+
+.left-section p{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.left-section p:hover{
+  color: rgb(184, 150, 248);
+  cursor: pointer;
+}
+
+#twitch-logo{
+  font-size: 30px;
+    color: rgb(161, 114, 247); 
+    padding: 10px;   
+}
+
+#twitch-logo:hover{
+  cursor: pointer;
+  background-color: rgb(53, 53, 59);
+  border-radius: 5px;
+}
+
+#three-dot-icn{
+    width: 30px;
+    height: 32px;
+}
+
+#three-dot-icn:hover{
+  background-color: rgb(53, 53, 59);
+  border-radius: 5px;
+}
+ 
+.left-section{
+  height: 100%;
+  width: 175px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.middle-section{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 35px;
+  max-width: 385px;
+}
+
+.middle-section .search-bar{
+  width: 90%;
+  height: 36px;
+  border: 1px solid rgb(164, 164, 164);
+  color: white;
+  border-radius: 5px;
+  background: transparent;
+  padding-left: 8px;
+  font-size: 16px;
+  line-height: 38px;
+}
+
+.middle-section #search-icon{
+  font-size: 20px;
+  filter: brightness(0) invert(1);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 6px;
+}
+
+.right-section{
+  height: 100%;
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 16px;
+}
+
+#crown-icn{
+  color: white;
+  padding: 5px 8px;
+}
+
+#crown-icn:hover{
+  background-color: rgb(53, 53, 59);
+  border-radius: 5px;
+}
+
+#user-photo{
+  font-size: 18px;
+  color: white;
+  padding: 5px 8px;
+}
+
+#user-photo:hover{
+  background-color: rgb(53, 53, 59);
+  border-radius: 5px;
+}
+
+.login-btn, .signup-btn{
+    padding: 8px 10px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.login-btn{
+  background-color: rgb(47, 47, 23);
+  margin-right: 4px;
+}
+
+.login-btn:hover{
+  background-color: rgb(53, 53, 59);
+}
+
+.login-btn:active{
+  background-color: rgb(62, 62, 70);
+}
+
+.signup-btn{
+  background-color: rgb(135, 75, 246);
+}
+
+.signup-btn:hover{
+  background-color: rgb(110, 49, 223);
+}
+
+.signup-btn:active{
+  background-color: rgb(93, 40, 192);
+}
